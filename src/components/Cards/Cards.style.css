@@ -1,0 +1,111 @@
+.article-wrapper {
+    display: flex;
+    padding: 1.5rem;
+    position: relative;
+    min-height: -moz-fit-content!important;
+    min-height: fit-content!important;
+    align-items: center;
+}
+.article-item-wrapper{
+    overflow: scroll;
+    padding: 1rem;
+    max-width: 1440px;
+
+    
+}
+.article-item-wrapper::-webkit-scrollbar-thumb {
+    background: transparent; 
+  }
+  
+  /* Handle on hover */
+  .article-item-wrapper::-webkit-scrollbar-thumb:hover {
+    background:transparent
+  }
+.article-item {
+    padding: 1rem 1rem 0 1rem;
+    /* background: url('https://source.unsplash.com/random/?origami'); */
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: #0000008c;
+    position: relative;
+    background-blend-mode: multiply;
+    width: 350px;
+    flex: 1 0 350px;
+    display: flex;
+    box-shadow: 0 -7px 20px #00000073;
+    margin-block: 0.5rem;
+    overflow-y: hidden;
+}
+
+.article-date{
+    color: var(--p-clr);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'poppins thin';
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.article-date svg{
+    width: 30px;
+}
+.article-detail {
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 70%;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.article-name{
+    font-weight: 600;
+    color: var(--w-clr);
+    color:white;
+    font-size: 2.1rem;
+    margin-bottom: 1.2rem;
+    height: 40%;
+}
+.article-info, .article-date{
+    letter-spacing: 1px;
+    color: var(--p-clr);
+    line-height: 1.5;
+}
+.article-info {
+    /* height: 250px; */
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    font-family: 'poppins thin';
+    font-weight: 100;
+    height: 46%;
+    overflow: hidden;
+
+}
+.article-action-button {
+    position: absolute;
+    width: 100%;
+    bottom: -20%;
+    left: 0;
+    padding: 1rem;
+    border-top: 1px var(--p-clr) solid;
+    /* background-color: red; */
+    background-color: rgba(0, 0, 0, 0.557);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.article-action-button > .btn {
+    transition-delay: 0.3s;
+    position: relative;
+    left: -50%;
+}
+.article-item:hover .article-action-button{
+    bottom: 0;
+    transition: 0.3s;
+    transition-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+.article-item:hover .article-action-button > .btn{
+    position: relative;
+left: 0%;
+}

@@ -1,0 +1,28 @@
+.article-page > div:nth-child(1){
+    flex: 1 1 100%;
+}
+.article-page{
+    padding-top: 10rem;
+}
+.article-page .lead{
+    width: 100%;
+}
+.article-page h2{
+    border-left: 20px var(--p-clr) solid;
+    padding-left: 1rem;
+
+}
+.writer-article{
+    float:right;
+    margin-right: 2rem;
+    font-style: italic;
+    font-size: 1.4rem;
+    font-family: 'poppins thin';
+    color: gray;
+}
+.article-item-wrapper > *:nth-child(1){
+    flex:1 1 63%;
+}
+.article-item-wrapper > *:nth-child(7){
+    flex:1 1 63%;
+}

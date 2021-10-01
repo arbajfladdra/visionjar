@@ -1,0 +1,6 @@
+.s-links{
+    display: flex;
+    gap: 1rem;
+    color :var(--p-clr);
+    cursor: pointer;
+}
