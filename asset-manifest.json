@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/visionjar/static/css/main.552142d3.chunk.css",
+    "main.js": "/visionjar/static/js/main.e3485a92.chunk.js",
+    "main.js.map": "/visionjar/static/js/main.e3485a92.chunk.js.map",
+    "runtime-main.js": "/visionjar/static/js/runtime-main.82f24e20.js",
+    "runtime-main.js.map": "/visionjar/static/js/runtime-main.82f24e20.js.map",
+    "static/js/2.c3603fd3.chunk.js": "/visionjar/static/js/2.c3603fd3.chunk.js",
+    "static/js/2.c3603fd3.chunk.js.map": "/visionjar/static/js/2.c3603fd3.chunk.js.map",
+    "static/js/3.8c9d3623.chunk.js": "/visionjar/static/js/3.8c9d3623.chunk.js",
+    "static/js/3.8c9d3623.chunk.js.map": "/visionjar/static/js/3.8c9d3623.chunk.js.map",
+    "index.html": "/visionjar/index.html",
+    "static/css/main.552142d3.chunk.css.map": "/visionjar/static/css/main.552142d3.chunk.css.map",
+    "static/js/2.c3603fd3.chunk.js.LICENSE.txt": "/visionjar/static/js/2.c3603fd3.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/visionjar/static/media/leadbg.d7dc98cf.gif",
+    "static/media/about.bec69b11.png": "/visionjar/static/media/about.bec69b11.png",
+    "static/media/Services.style.css": "/visionjar/static/media/bg2.75fa3de9.jpg",
+    "static/media/footer.698c1f82.png": "/visionjar/static/media/footer.698c1f82.png",
+    "static/media/illustrator2.1bb7ffdb.png": "/visionjar/static/media/illustrator2.1bb7ffdb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82f24e20.js",
+    "static/js/2.c3603fd3.chunk.js",
+    "static/css/main.552142d3.chunk.css",
+    "static/js/main.e3485a92.chunk.js"
+  ]
+}
